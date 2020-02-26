@@ -1,5 +1,6 @@
 package com.mysamples;
 
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -9,18 +10,12 @@ public class MasBubbleSorting {
 
     private void fillMas() { //the method created
 
-//        for (int element : mas) {
-//            element = ((int) (Math.random() * 8) * 8); //massive filled with random numbers
-//            System.out.print(element + " "); //massive elements printed
-//        } //does not work properly as foreach cycle does not rewrite the massive
-
         for (int i = 0; i < mas.length; i++) {
-            mas[i] = ((int) (Math.random() * 8) * 8); //massive filled with random numbers
+            mas[i] = (int) (Math.random() * 100); //massive filled with random numbers
             System.out.print(mas[i] + " "); //massive elements printed
         }
         System.out.print("- this is unsorted massive");
     }
-
 
     private void sortMasAsc() { //the method created
         boolean swap; //flag set to false by default
@@ -39,8 +34,8 @@ public class MasBubbleSorting {
             last--; //because maximum element always takes the last place
         } while (swap);
         System.out.println();
-        for (int i : mas) {
-            System.out.print(" " + mas[i] + " "); //here we print the sorted massive elements
+        for (int ma : mas) {
+            System.out.print(" " + ma + " "); //here we print sorted massive elements
         }
 
         System.out.print("The massive is sorted in ascending order");
@@ -63,10 +58,12 @@ public class MasBubbleSorting {
             last--; //because maximum element always takes the last place
         } while (swap);
         System.out.println();
-        for (int i : mas) {
-            System.out.print(" " + mas[i] + " "); //here we print the sorted massive elements
+        //here we print the sorted massive elements
+        for (int ma : mas) {
+            System.out.print(" " + ma + " "); //here we print sorted massive elements
         }
         System.out.print("The massive is sorted in descending order");
+
     }
 
 
