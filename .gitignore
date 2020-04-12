@@ -1,3 +1,12 @@
 /.idea/
 /src/com/mysamples/Tryes.java/
 
+/src/com/mysamples/Test.java
+/src/com/mysamples/TryesChild.java
+/src/com/mysamples/TryesParent.java
+/src/com/mysamples/TryesPrivate.java
+/src/com/mysamples/TryesSimple.java
+/src/com/mysamples/MoreTryes.java
+/src/com/mysamples/Product.java
+/src/com/mysamples/Runner.java
+/src/com/mysamples/InOut.java
