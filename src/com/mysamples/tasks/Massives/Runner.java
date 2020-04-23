@@ -12,5 +12,6 @@ public class Runner {
         InOut.printArray(array);
         InOut.printArray(array, "V", 3);
         //sort method will be realized here later
+        Operations.sortMas(array);
     }
 }
